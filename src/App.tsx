@@ -7,7 +7,15 @@ function App() {
     <Box>
       <Container w='100%' m='0' p='0'>
         <h1>Vite + React</h1>
-        <Button onClick={() => setCount((count) => count + 1)}>
+        <Button
+          onClick={() => setCount((count) => count + 1)}
+          _hover={{
+            bgColor: 'black',
+            color: 'yellow'
+          }}
+          bgColor="white"
+          color="black"
+        >
           count is {count}
         </Button>
       </Container>

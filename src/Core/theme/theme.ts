@@ -1,5 +1,5 @@
 import { extendTheme } from "@chakra-ui/react";
-import buttonStyles from './Components/Button/Buttons';
+import buttonStyles from "./ComponentsUI/Button/Buttons";
 
 const theme = extendTheme({
     config: {
@@ -8,6 +8,10 @@ const theme = extendTheme({
     },
     styles: {
         global: {
+            '*':{
+                margin:'0',
+                padding:'0',
+            },
             'html, body': {
                 background: 'var(--GA-colors-darkBlue-500)',
                 color: 'var(--GA-colors-white-500)',
@@ -48,7 +52,7 @@ const theme = extendTheme({
         },
     },
     fonts: {
-        heading: "Manrope, sans-serif",
+        heading: "System-UI, sans-serif",
         body: "Ubuntu, sans-serif",
     },
     fontWeight: {

@@ -1,14 +1,14 @@
-import React from "react";
 import { Button } from "@chakra-ui/react";
+import React from "react";
 
 export default {
-    title: "Button",
+    title: "Component/Hero",
     component: Button,
     argTypes: {
         children: {
             type: "string",
             description: "Контент кнопки",
-            defaultValue: "Click "
+            defaultValue: "Click"
         },
         color: {
             type: "string",
@@ -52,5 +52,5 @@ Accent.args = {
     _hover: {
         bgColor: 'black',
         color: 'yellow'
-    }
+    },
 };
