@@ -1,11 +1,5 @@
 const buttonStyles = {
     baseStyle: {
-        _hover: {
-            bgColor: "black !important",
-            color: 'yellow',
-            fontWeight: "bold",
-            borderRadius: "md",
-        },
         bgColor:'white !important',
         fontWeight: "bold",
         borderRadius: "md",
